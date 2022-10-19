@@ -4,6 +4,13 @@ setTimeout(function () {
 }, 1000);
 
 
+
+function contactbutton(){
+	document.getElementById("contactBtn").innerText = "Thanks for Contacting!";
+}
+
+
+
 // moving element
 document.addEventListener('mousemove',mover)
 
