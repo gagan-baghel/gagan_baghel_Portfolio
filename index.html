@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
+  <title>GBfolio</title>
+</head>
+
+<body class="example bg-[#11111a] overflow-x-hidden">
+
+<section>
+  <div id="leftmenu" class="w-1/2 bg-black fixed left-0 top-[64px] h-screen lefthide">
+    <ul class="py-10">
+      <li class="text-lg text-white py-4 pl-5 hover:text-[#64ffda]">
+        <a href="#AboutMe">
+          AboutMe
+        </a>
+      </li>
+      <li class="text-lg text-white py-4 pl-5 hover:text-[#64ffda]">
+        <a href="#Skills">
+          Skills
+        </a>
+      </li>
+      <li class="text-lg text-white py-4 pl-5 hover:text-[#64ffda]">
+        <a href="#Contact">
+          ContactMe
+        </a>
+      </li>
+      <li class="text-lg text-white py-4 pl-5 hover:text-[#64ffda]">
+        <a href="">
+          Resume
+        </a>
+      </li>
+    </ul>
+  </div>
+
+  <div style="z-index: 999;" class="fixed top-0 w-full">
+
+  <nav style="z-index: 9999;" class="bg-black sm:bg-[#00000035] h-[65px] ease-in-out duration-900 hover:bg-black sm:px-1 md:px-16 py-3">
+
+    <ul class="flex flex-row justify-between">
+      <i id="logo" class="fixed top-3 left-6 fa-brands fa-connectdevelop rotate text-5xl text-[#64ffda] z-100 rotate"></i>
+
+      <div class="for-Balancing-navbar"></div>
+
+      <li class="flex items-center md:space-x-16 sm:space-x-12 opacity-75">
+        <a href="#AboutMe" class="items-center sm:block text-xl hidden navlink text-[#64ffda] hover:text-[#8892b0cb]">
+          AboutMe
+        </a>
+        <a href="#Skills" class="sm:block text-xl hidden navlink text-[#64ffda]  hover:text-[#8892b0cb]">
+          Skills
+        </a>
+        <a href="#Contact" class="sm:block hidden text-xl navlink text-[#64ffda]  hover:text-[#8892b0cb]">
+          ContactMe
+        </a>
+        <a href=""
+          class="sm:block hidden navlink text-[#64ffda] text-lg  border border-[#64ffda] rounded-[100px] py-1 px-4 hover:text-[#8892b0cb] hover:border-[#8892b0cb]"
+          download>
+          Resume
+        </a>
+
+        <button id="menubtn" href=""
+          class="sm:hidden block navlink text-[#64ffda] font-semibold sm:text-lg text-xs mr-4" onclick="myFunction()">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+
+        </button>
+      </li>
+    </ul>
+
+
+
+  </nav>
+</div>
+
+</section>
+
+  <section class="relative h-[90vh] flex justify-center items-center overflow-hidden">
+
+    <div class="mover sm:block  hidden overflow-hidden">
+
+      <a class="mitem m1 z-20" id="m1" href=""><i class="fa-solid fa-code"></i></a>
+      <a class="mitem m2 z-20" id="m2" href=""><i class="fa-solid fa-terminal"></i></a>
+      <a class="mitem m3 z-20" id="m3" href=""><i class="fa-solid fa-bug"></i></a>
+
+      <a class="mitemo m4 z-20" href=""><i class="fa-solid fa-code"></i></a>
+      <a class="mitemo m5 z-20" href=""><i class="fa-solid fa-terminal"></i></a>
+      <a class="mitemo m6 z-20" href=""><i class="fa-solid fa-bug"></i></a>
+
+      <a class="mitemo2 m7 z-20" href=""><i class="fa-solid fa-code"></i></a>
+      <a class="mitemo2 m8 z-20" href=""><i class="fa-solid fa-terminal"></i></a>
+      <a class="mitemo2 m9 z-20" href=""><i class="fa-solid fa-bug"></i></a>
+      <a class="mitemo2 m10 z-20" href=""><i class="fa-solid fa-bug"></i></a>
+
+    </div>
+
+    <div class="absolute sm:h-[50vh] sm:w-1/4 w-1/2 h-1/2 bg-[#000000] top-0 right-0 rounded-bl-[240px] "></div>
+
+    <div class="sm:absolute sm:top-[30%] sm:left-[15%] md:right-[15%] lg:right-[25%] text-white px-6 sm:px-0">
+      <p class="leading-[50px] text-[#64ffda] p1 typewritter-text">Hello my name is _</p>
+      <div class="name cursor-pointer">
+        <h2
+          class="leading-[50px] ease-in-out text-[35px] sm:text-[50px] md:text-[70px] duration-300 hover:scale-y-[0.6]  hover:scale-x-[1.2] inline-block hover:text-[#64ffda] font-[700]">
+          G</h2>
+        <h2
+          class="leading-[50px] ease-in-out duration-300 hover:scale-y-[0.6] hover:scale-x-[1.2] inline-block hover:text-[#64ffda] text-[35px] sm:text-[50px] md:text-[70px] font-[700]">
+          a</h2>
+        <h2
+          class="leading-[50px] ease-in-out duration-300 hover:scale-y-[0.6] hover:scale-x-[1.2] inline-block hover:text-[#64ffda] text-[35px] sm:text-[50px] md:text-[70px] font-[700]">
+          g</h2>
+        <h2
+          class="leading-[50px] ease-in-out duration-300 hover:scale-y-[0.6] hover:scale-x-[1.2] inline-block hover:text-[#64ffda] text-[35px] sm:text-[50px] md:text-[70px] font-[700]">
+          a</h2>
+        <h2
+          class="leading-[50px] ease-in-out duration-300 hover:scale-y-[0.6] hover:scale-x-[1.2] inline-block hover:text-[#64ffda] text-[35px] sm:text-[50px] md:text-[70px] font-[700]">
+          n</h2>
+        <h2
+          class="leading-[50px] ease-in-out duration-300 hover:scale-y-[0.6] hover:scale-x-[1.2] inline-block hover:text-[#64ffda] text-[35px] sm:text-[50px] md:text-[70px] font-[700] ">
+          B</h2>
+        <h2
+          class="leading-[50px] ease-in-out duration-300 hover:scale-y-[0.6] hover:scale-x-[1.2] inline-block hover:text-[#64ffda] text-[35px] sm:text-[50px] md:text-[70px] font-[700]">
+          a</h2>
+        <h2
+          class="leading-[50px] ease-in-out duration-300 hover:scale-y-[0.6] hover:scale-x-[1.2] inline-block hover:text-[#64ffda] text-[35px] sm:text-[50px] md:text-[70px] font-[700]">
+          g</h2>
+        <h2
+          class="leading-[50px] ease-in-out duration-300 hover:scale-y-[0.6] hover:scale-x-[1.2] inline-block hover:text-[#64ffda] text-[35px] sm:text-[50px] md:text-[70px] font-[700]">
+          h</h2>
+        <h2
+          class="leading-[50px] ease-in-out duration-300 hover:scale-y-[0.6] hover:scale-x-[1.2] inline-block hover:text-[#64ffda] text-[35px] sm:text-[50px] md:text-[70px] font-[700]">
+          e</h2>
+        <h2
+          class="leading-[50px] ease-in-out duration-300 hover:scale-y-[0.6] hover:scale-x-[1.2] inline-block hover:text-[#64ffda] text-[35px] sm:text-[50px] md:text-[70px] font-[700]">
+          l</h2>
+      </div>
+      <h3
+        class="z-20 leading-[30px] sm:leading-[50px] md:leading-[70px] lg:leading-[80px] text-[30px] sm:text-[40px] md:text-[60px] font-[700] py-2 sm:py-0 subhead">
+        I Design and Create Things For The Web.</h3>
+      <p
+        class=" z-20 leading-[20px] sm:leading-[40px] md:leading-[60px] text-[#64ffda] md:text-[40px] md:text-[20px] intrest">
+        I love everything about the WEB including the spiders who create Them..........</p>
+
+
+    </div>
+
+  </section>
+
+  <section id="AboutMe" class="relative py-12 px-2 sm:px-28 sm:min-h-[60vh] flex items-center ">
+
+    <div class="circle absolute md:h-[900px] md:w-[900px] w-[500px] h-[500px]  -left-[300px] rounded-full bg-black">
+    </div>
+
+    <div class="flex h-full lg:flex-row flex-col items-center z-20">
+
+      <div class="aboutinfo px-6 sm:px-12 py-12 lg:w-1/2  w-full">
+        <h1
+          class="cursor-pointer text-[#8892b0cb] leading-[50px]  text-[35px] sm:text-[50px] md:text-[70px] ease-in-out duration-300  inline-block font-[700]">
+          About-Me</h1>
+        <p
+          class="smooth-italic cursor-pointer mt-5 md:text-xl sm:text-base text-sm hover:text-[#64ffda] text-[#8892b0cb]">
+          Gagan is a developer,
+          programmer, solution oriented problem solver. He likes to code
+          things from scratch, and enjoys bringing ideas to life in the browser. He values simple content
+          structure, clean design patterns, and thoughtful interactions. He is naturally curious, and
+          perpetually working on improving his skills.</p>
+
+      </div>
+      <div class=" w-full lg:w-1/2 relative md:block hidden blessbox flex justify-center">
+        <div class="slider">
+          <div class="container">
+            <div class="slide x"></div>
+            <div class="slide y"></div>
+            <div class="slide z"></div>
+          </div>
+          <div class="shadow"></div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <section id="Skills" class="skills py-12 sm:px-28 sm:min-h-[70vh] flex items-center z-20">
+
+    <div class="flex lg:flex-row flex-col">
+
+      <div class="lg:w-1/2 w-full hidden md:flex flex-col justify-center items-center">
+        <canvas width="650" class="z-20 xl:h-[600px] xl:w-[600px] lg:h-[500px] lg:w-[500px]" height="650" id="myCanvas">
+          <ul id="tags">
+            <li>
+              <a href="#" target="_blank" id="at"><span> HTML </span></a>
+            </li>
+            <li><a href="#" target="_blank">CSS</a></li>
+            <li><a href="#" target="_blank">ES5</a></li>
+            <li><a href="#" target="_blank">TypeScript</a></li>
+            <li><a href="#" target="_blank">REST</a></li>
+            <li><a href="#" target="_blank">JSON</a></li>
+            <li><a href="#" target="_blank">GSAP</a></li>
+            <li><a href="#" target="_blank">Data Science</a></li>
+            <li><a href="#" target="_blank">Wordpress</a></li>
+            <li><a href="#" target="_blank">PHP</a></li>
+            <li><a href="#" target="_blank">Python</a></li>
+            <li><a href="#" target="_blank">Node JS</a></li>
+            <li><a href="#" target="_blank">Git</a></li>
+            <li><a href="#" target="_blank">_lodash</a></li>
+            <li><a href="#" target="_blank">SASS</a></li>
+            <li><a href="#" target="_blank">JQuery</a></li>
+            <li><a href="#" target="_blank">SQI</a></li>
+            <li><a href="#" target="_blank">Gulp</a></li>
+            <li><a href="#" target="_blank">npm</a></li>
+            <li><a href="#" target="_blank">BEM</a></li>
+            <li><a href="#" target="_blank" id="gagan">Gagan</a></li>
+          </ul>
+        </canvas>
+      </div>
+
+      <div class=" px-6 sm:px-12 py-12 lg:w-1/2  w-full flex flex-col justify-center items-center z-20">
+        <div>
+          <h1
+            class=" cursor-pointer text-[#8892b0cb] leading-[50px]  text-[25px] sm:text-[30px] md:text-[50px] ease-in-out duration-300  inline-block font-[700] z-20 pb-6">
+            Hey Gagan Here, ¯\_(ツ)_/¯</h1>
+          <p
+            class="z-20 cursor-pointer mt-5 smooth-italic md:text-xl sm:text-base text-sm hover:text-[#64ffda] text-[#8892b0cb]">
+            I am a self
+            learning, smartworking programmer proficient with programming languages like C++ ,
+            Javascript , basics of Java & python having a strong understanding of the key concepts of programming like
+            OOPs ,
+            Design Patterns , Algorithms , Data_Structures etc.</p>
+          <p
+            class="z-20 cursor-pointer mt-5 smooth-italic md:text-xl sm:text-base text-sm hover:text-[#64ffda] text-[#8892b0cb]">
+            Gagan is a
+            developer,
+            he is a Fullstack Web developer. In the frontend he know Html, Css,Tailwind , Bootstrap, Javascript, React
+            js, and
+            in backend, he know Node js, Express js, I use MongoDb for database management. he is familiar with
+            version control systems like Git, Github. he also have a Good Hand Over Data Structures & Algorithms and
+            still learning.</p>
+        </div>
+      </div>
+
+    </div>
+
+    </div>
+
+  </section>
+
+  <section class="py-12 px-14">
+    <a href="./project.html">
+      <h1 class="sm:text-6xl text-4xl underline font-bold text-[#8892b0] pb-12 text-center hover:text-[#64ffda]">
+        <i class="fa-solid fa-link"></i>
+        My Projects
+        <i class="fa-solid fa-caret-right"></i>
+      </h1>
+    </a>
+  </section>
+
+  <section class="py-12 sm:px-28 min-h-[55vh] flex flex-col items-center ">
+
+
+    <h1 class="w-full font-bold text-[#64ffda90] sm:text-5xl text-4xl sm:text-left text-center px-6 ">
+      WorkFlow _ <i class="fa-solid fa-briefcase"></i>
+    </h1>
+
+    <div class="deck w-full sm:py-16 py-8 px-2  text-[#8892b0cb] flex flex-row flex-wrap justify-center">
+
+      <div
+        class="card ease-in-out duration-300 hover:-translate-y-4 border border-[#64ffda] rounded-[12px] w-[13rem] px-6 py-8 hover:border-none hover:bg-[#8892b00c] mx-3 my-6 z-10">
+        <i class="fa-solid fa-magnifying-glass sm:text-5xl text-4xl mb-2"></i>
+        <h6 class="text-3xl sm:text-4xl font-bold">
+          Discover
+        </h6>
+        <p class="smooth-italic sm:mt-2 cursor-pointer text-base  hover:text-[#64ffda] text-[#8892b0cb] py-2">
+          I conduct user research to identify the problem I want to solve.</p>
+      </div>
+      <div
+        class="card ease-in-out duration-300 hover:-translate-y-4 border border-[#64ffda] rounded-[12px] w-[13rem] px-6 py-8 hover:border-none hover:bg-[#8892b00c] mx-3 my-6 z-10">
+        <i class="fa-solid fa-pen sm:text-5xl text-4xl mb-2"></i>
+        <h6 class="text-3xl sm:text-4xl font-bold">
+          Define
+        </h6>
+        <p class="smooth-italic sm:mt-2 cursor-pointer text-base hover:text-[#64ffda] text-[#8892b0cb] py-2">
+          I brainstorm possible design solutions to the identified problem.
+        </p>
+      </div>
+      <div
+        class="card ease-in-out duration-300 hover:-translate-y-4 border border-[#64ffda] rounded-[12px] w-[13rem] px-6 py-8 hover:border-none hover:bg-[#8892b00c] mx-3 my-6 z-10">
+        <i class="fa-solid fa-align-left sm:text-5xl text-4xl mb-2"></i>
+        <h6 class="text-3xl sm:text-4xl font-bold">
+          Ideate
+        </h6>
+        <p class="smooth-italic sm:mt-2 cursor-pointer text-base hover:text-[#64ffda] text-[#8892b0cb] py-2">
+          I create wireframes and sketches of the product I’m about to design..</p>
+      </div>
+      <div
+        class="card ease-in-out duration-300 hover:-translate-y-4 border border-[#64ffda] rounded-[12px] w-[13rem] px-6 py-8 hover:border-none hover:bg-[#8892b00c] mx-3 my-6 z-10">
+        <i class="fa-solid fa-compass-drafting sm:text-5xl text-4xl mb-2"></i>
+        <h6 class="text-3xl sm:text-4xl font-bold">
+          Prototype
+        </h6>
+        <p class="smooth-italic sm:mt-2 cursor-pointer text-base hover:text-[#64ffda] text-[#8892b0cb] py-2">
+          I create high fidelity design and prototype the screens.</p>
+      </div>
+      <div
+        class="card ease-in-out duration-300 hover:-translate-y-4 border border-[#64ffda] rounded-[12px] w-[14rem] px-6 py-8 hover:border-none hover:bg-[#8892b00c] mx-3 my-6 z-10">
+        <i class="fa-solid fa-screwdriver-wrench sm:text-5xl text-4xl mb-2"></i>
+        <h6 class="text-3xl sm:text-4xl font-bold">
+          Implement
+        </h6>
+        <p class="smooth-italic sm:mt-2 cursor-pointer text-base hover:text-[#64ffda] text-[#8892b0cb] py-2">
+          After designing, I deliver for implementation.</p>
+      </div>
+
+    </div>
+  </section>
+
+
+  <section id="Contact" class="relative py-12 flex justify-center items-center sm:px-28 sm:pb-36 pb-8">
+
+    <div class="sm:bg-black bg-[#00000040] sm:w-1/4 w-1/2 absolute -top-64 bottom-0 left-0 rounded-tr-[240px]"></div>
+
+
+    <div class="w-full lg:flex-row flex-col flex z-10">
+
+      <div class=" w-full lg:w-1/2 flex justify-center items-center">
+        <form action='https://formsubmit.co/8dceccfc7d1a6ea003ce596aa34236d6' method='POST'
+          class="mx-2 w-full max-w-lg border-black bg-[#11111A] rounded-md px-8 py-10 sm:py-14 "
+          style=" box-shadow: 0 12px 765px 0 rgba(31, 38, 135, 0.37);">
+          <h1 class="text-[#8892B0] text-center md:text-4xl text-3xl py-6 pb-10 smooth-italic">Post a Mail &#160; <i
+              class="fa-solid fa-envelope hover:text-[#64ffda]"></i></h1>
+          <div class="flex flex-wrap -mx-3 ">
+            <div class=" w-full lg:w-1/2  px-3 pb-2 ">
+
+              <input
+                class="h-12 appearance-none block w-full text-[#64ffda] border border-[#8892B030]  py-2 px-4 leading-tight focus:outline-none focus:bg-[#64ffda20]"
+                id="grid-first-name" type="text" name='user_name' placeholder="Full Name">
+
+            </div>
+            <div class="w-full lg:w-1/2 px-3 py-2 lg:pt-0  ">
+              <input
+                class="h-12 appearance-none block w-full  text-[#64ffda]  border border-[#8892B030] py-3 px-4  leading-tight focus:outline-none focus:bg-[#64ffda20]"
+                id="grid-last-name" type="email" name='user_email' placeholder="Email">
+            </div>
+            <div class="w-full px-3 py-2 ">
+              <input
+                class="h-12 appearance-none block w-full text-[#64ffda] border border-[#8892B030] py-2 px-4 leading-tight focus:outline-none  focus:bg-[#64ffda20]"
+                id="grid-last-name" type="text" name='subject' placeholder="Subject">
+            </div>
+          </div>
+
+          <div class="flex flex-wrap -mx-3 ">
+            <div class="w-full px-3 py-2">
+              <textarea
+                class="h-48 resize-none appearance-none block w-full text-[#64ffda] border border-[#8892B030] py-2 px-4  mb-3 leading-tight focus:outline-none focus:bg-[#64ffda20] focus:border-gray-500"
+                id="grid-password" type="password" name='user_msg' placeholder="Message"></textarea>
+              <input type="hidden" name="_next" value="done.html">
+
+
+            </div>
+          </div>
+          <div class="flex w-full justify-end ">
+            <button
+              class=" opacity-80 border-[1px] text-xs text-[#64ffda] border-[#64ffda] hover:text-[#8892B0]  hover:border-[#8892b088]  py-3 my-3 px-4">
+              Send your Message
+            </button>
+          </div>
+
+        </form>
+      </div>
+
+      <div class="lg:w-1/2 w-full p-12 flex justify-center items-center">
+
+        <div class="w-full">
+
+          <div class="flex flex-row  justify-center items-center ">
+            <div class="w-[200px] h-[200px] lg:m-4 m-1 flex justify-center items-center rounded-full icon">
+
+              <a href="https://github.com/gagan-baghel">
+                <i class="fa-brands fa-github text-[#64ffda] text-5xl sm:text-7xl"></i></a>
+            </div>
+            <div class="w-[200px] h-[200px] lg:m-4 m-1 flex justify-center items-center rounded-full icon">
+              <a href="mailto:gaganbaghelofficial@gmail.com"><i
+                  class=" fa-solid fa-envelopes-bulk text-[#64ffda] text-5xl sm:text-7xl"></i></a>
+            </div>
+          </div>
+
+          <div class="flex flex-row justify-center items-center">
+            <div class="w-[200px] h-[200px] lg:m-4 m-1 flex justify-center items-center rounded-full icon">
+              <a href="https://auth.geeksforgeeks.org/user/gagansinghbaghel15"><i
+                  class="text-[#64ffda] text-5xl sm:text-7xl">GFG</i></a>
+            </div>
+            <div class="w-[200px] h-[200px] lg:m-4 m-1 flex justify-center items-center rounded-full icon">
+              <a href="https://www.reddit.com/user/Gagan_Baghel"><i
+                  class="fa-brands fa-reddit-alien text-[#64ffda] text-5xl sm:text-7xl"></i></a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <footer class="bg-[#8892b0]">
+    
+
+    <div class="sm:fixed bottom-[8%] left-0 text-center px-6 text-2xl ">
+      <div
+        class="flex sm:flex-col flex-row sm:space-y-2 sm:text-[#8892b0] text-black justify-center items-center space-x-5 sm:space-x-0 sm:pt-0  pt-3">
+        <a class="ease-in-out duration-300 hover:-translate-y-2 " href="https://github.com/gagan-baghel"><i
+            class="fa-brands fa-github  hover:text-[#64ffda]"></i></a>
+        <a class="ease-in-out duration-300 hover:-translate-y-2 "
+          href="https://www.facebook.com/profile.php?id=100010154055321"><i
+            class="fa-brands fa-facebook-f  hover:text-[#64ffda]"></i></a>
+        <a class="ease-in-out duration-300 hover:-translate-y-2 "
+          href="https://www.instagram.com/gagansinghbaghel15/?next=%2F"><i
+            class="fa-brands fa-instagram  hover:text-[#64ffda]"></i></a>
+        <a class="ease-in-out duration-300 hover:-translate-y-2 "
+          href="https://www.linkedin.com/in/gagan-singh-baghel-0a894220b/"><i
+            class="fa-brands fa-linkedin  hover:text-[#64ffda]"></i></a>
+      </div>
+      <div class="sm:flex justify-center pt-6 hidden">
+        <div class="h-48 w-[1px] bg-[#8892b0]"></div>
+      </div>
+
+    </div>
+    <hr class="mx-8 my-2 text-[#8892b0] sm:hidden block">
+
+    <p class="text-center pb-4 sm:py-2 typewritter-text sm:text-sm text-xs">Copyright © 2022 Gagan Baghel</p>
+
+  </footer>
+
+
+  <section>
+    <div style="z-index: 9999;"  class="loader">
+      <div class="body">
+        <span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </span>
+        <div class="base" style>
+          <span></span>
+          <div class="face"></div>
+        </div>
+      </div>
+      <div class="longfazers">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <h1 class="loaderh1">Ready To Explore</h1>
+    </div>
+  </section>
+
+
+
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous"></script>
+  <script src="jquery.tagcanvas.js"></script>
+  <script src="script.js"></script>
+  <script src="https://kit.fontawesome.com/0b20950690.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

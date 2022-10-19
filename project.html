@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
+  <title>GBfolio</title>
+</head>
+
+<body class="example bg-[#11111a] overflow-x-hidden">
+  
+  <section>
+    <div id="leftmenu" class="w-1/2 bg-black fixed left-0 top-[64px] h-screen lefthide">
+      <ul class="py-10">
+        <li class="text-lg text-white py-4 pl-5 hover:text-[#64ffda]">
+          <a href="./index.html#AboutMe">
+            AboutMe
+          </a>
+        </li>
+        <li class="text-lg text-white py-4 pl-5 hover:text-[#64ffda]">
+          <a href="./index.html#Skills">
+            Skills
+          </a>
+        </li>
+        <li class="text-lg text-white py-4 pl-5 hover:text-[#64ffda]">
+          <a href="./index.html#Contact">
+            ContactMe
+          </a>
+        </li>
+        <li class="text-lg text-white py-4 pl-5 hover:text-[#64ffda]">
+          <a href="">
+            Resume
+          </a>
+        </li>
+      </ul>
+    </div>
+  
+    <div style="z-index: 999;" class="fixed top-0 w-full">
+  
+    <nav style="z-index: 9999;" class="bg-black sm:bg-[#00000035] h-[65px] ease-in-out duration-900 hover:bg-black sm:px-1 md:px-16 py-3">
+  
+      <ul class="flex flex-row justify-between">
+        <i id="logo" class="fixed top-3 left-6 fa-brands fa-connectdevelop rotate text-5xl text-[#64ffda] z-100 rotate"></i>
+  
+        <div class="for-Balancing-navbar"></div>
+  
+        <li class="flex items-center md:space-x-16 sm:space-x-12 opacity-75">
+          <a href="./index.html#AboutMe" class="items-center sm:block text-xl hidden navlink text-[#64ffda] hover:text-[#8892b0cb]">
+            AboutMe
+          </a>
+          <a href="./index.html#Skills" class="sm:block text-xl hidden navlink text-[#64ffda]  hover:text-[#8892b0cb]">
+            Skills
+          </a>
+          <a href="./index.html#Contact" class="sm:block hidden text-xl navlink text-[#64ffda]  hover:text-[#8892b0cb]">
+            ContactMe
+          </a>
+          <a href=""
+            class="sm:block hidden navlink text-[#64ffda] text-xl  border border-[#64ffda] rounded-[4px] py-1 px-4 hover:text-[#8892b0cb] hover:border-[#8892b0cb]"
+            download>
+            Resume
+          </a>
+  
+          <button id="menubtn" href=""
+            class="sm:hidden block navlink text-[#64ffda] font-semibold sm:text-lg text-xs mr-4" onclick="myFunction()">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+  
+          </button>
+        </li>
+      </ul>
+  
+  
+  
+    </nav>
+  </div>
+  
+  </section>
+
+
+      <section class="min-h-screen px-2 sm:px-24 py-12 text-center">
+        <h1 class="sm:text-6xl text-5xl font-bold text-[#8892b0] pb-12 pt-[64px]">My Projects</h1>
+
+        <div class="flex flex-row flex-wrap justify-center text-left">
+
+        <div class="border border-[#64ffda] w-[270px] min-h-[200px] px-4 py-5 rounded-lg ease-in-out duration-300 hover:-translate-y-4 hover:border-[#ffffff20] hover:bg-[#8892b010] m-4">
+            <img class="h-[150px] w-full " src="" alt="">
+            <h1 class="text-[#8892b0] hover:text-[#64ffda] text-3xl font-extrabold py-3 smooth-italic">Weather API</h1>
+            <p class="text-[#8892b0] hover:text-[#64ffda] text-sm font-extrabold py-1 smooth-italic">Weather APIs are Application Programming Interfaces that allow you to connect to large databases of weather forecast and historical information </p>
+            <a class="text-[#ffffff] hover:text-[blue] text-sm font-extrabold py-1 smooth-italic" href="">See More </a>
+        </div>
+        <div class="border border-[#64ffda] w-[270px] min-h-[200px] px-4 py-5 rounded-lg ease-in-out duration-300 hover:-translate-y-4 hover:border-[#ffffff20] hover:bg-[#8892b010] m-4">
+            <img class="h-[150px] w-full " src="" alt="">
+            <h1 class="text-[#8892b0] hover:text-[#64ffda] text-3xl font-extrabold py-3 smooth-italic">Parallex Website</h1>
+            <p class="text-[#8892b0] hover:text-[#64ffda] text-sm font-extrabold py-1 smooth-italic">
+              website built on a scrolling technique used in web design where background images throughout a web page move slower than foreground images, creating an illusion of depth on a two-dimensional site.
+            </p>
+            <a class="text-[#ffffff] hover:text-[blue] text-sm font-extrabold py-1 smooth-italic" href="">See More </a>
+        </div>
+        <div class="border border-[#64ffda] w-[270px] min-h-[200px] px-4 py-5 rounded-lg ease-in-out duration-300 hover:-translate-y-4 hover:border-[#ffffff20] hover:bg-[#8892b010] m-4">
+            <img class="h-[150px] w-full " src="" alt="">
+            <h1 class="text-[#8892b0] hover:text-[#64ffda] text-3xl font-extrabold py-3 smooth-italic">Dynamic ToDO List With Backend</h1>
+            <p class="text-[#8892b0] hover:text-[#64ffda] text-sm font-extrabold py-1 smooth-italic">a dynamic todolist using ejs,mongodb,html,css</p>
+            <a class="text-[#ffffff] hover:text-[blue] text-sm font-extrabold py-1 smooth-italic" href="">See More </a>
+        </div>
+        <div class="border border-[#64ffda] w-[270px] min-h-[200px] px-4 py-5 rounded-lg ease-in-out duration-300 hover:-translate-y-4 hover:border-[#ffffff20] hover:bg-[#8892b010] m-4">
+            <img class="h-[150px] w-full " src="" alt="">
+            <h1 class="text-[#8892b0] hover:text-[#64ffda] text-3xl font-extrabold py-3 smooth-italic">Basic Blog Website</h1>
+            <p class="text-[#8892b0] hover:text-[#64ffda] text-sm font-extrabold py-1 smooth-italic">blog website to publish edit ande delete blog</p>
+            <a class="text-[#ffffff] hover:text-[blue] text-sm font-extrabold py-1 smooth-italic" href="">See More </a>
+        </div>
+        <div class="border border-[#64ffda] w-[270px] min-h-[200px] px-4 py-5 rounded-lg ease-in-out duration-300 hover:-translate-y-4 hover:border-[#ffffff20] hover:bg-[#8892b010] m-4">
+            <img class="h-[150px] w-full " src="" alt="">
+            <h1 class="text-[#8892b0] hover:text-[#64ffda] text-3xl font-extrabold py-3 smooth-italic">Simon Game</h1>
+            <p class="text-[#8892b0] hover:text-[#64ffda] text-sm font-extrabold py-1 smooth-italic">a memory enhancement game which give you a better challang to user at every step</p>
+            <a class="text-[#ffffff] hover:text-[blue] text-sm font-extrabold py-1 smooth-italic" href="">See More </a>
+        </div>
+        <div class="border border-[#64ffda] w-[270px] min-h-[200px] px-4 py-5 rounded-lg ease-in-out duration-300 hover:-translate-y-4 hover:border-[#ffffff20] hover:bg-[#8892b010] m-4">
+            <img class="h-[150px] w-full " src="" alt="">
+            <h1 class="text-[#8892b0] hover:text-[#64ffda] text-3xl font-extrabold py-3 smooth-italic">Static TinDog</h1>
+            <p class="text-[#8892b0] hover:text-[#64ffda] text-sm font-extrabold py-1 smooth-italic">a static using bootstrap </p>
+            <a class="text-[#ffffff] hover:text-[blue] text-sm font-extrabold py-1 smooth-italic" href="">See More </a>
+        </div>
+        <div class="border border-[#64ffda] w-[270px] min-h-[200px] px-4 py-5 rounded-lg ease-in-out duration-300 hover:-translate-y-4 hover:border-[#ffffff20] hover:bg-[#8892b010] m-4">
+            <img class="h-[150px] w-full " src="" alt="">
+            <h1 class="text-[#8892b0] hover:text-[#64ffda] text-3xl font-extrabold py-3 smooth-italic">Rest API</h1>
+            <p class="text-[#8892b0] hover:text-[#64ffda] text-sm font-extrabold py-1 smooth-italic">a rest api to perform all the actions to the database</p>
+            <a class="text-[#ffffff] hover:text-[blue] text-sm font-extrabold py-1 smooth-italic" href="">See More </a>
+        </div>
+        <div class="border border-[#64ffda] w-[270px] min-h-[200px] px-4 py-5 rounded-lg ease-in-out duration-300 hover:-translate-y-4 hover:border-[#ffffff20] hover:bg-[#8892b010] m-4">
+            <img class="h-[150px] w-full " src="" alt="">
+            <h1 class="text-[#8892b0] hover:text-[#64ffda] text-3xl font-extrabold py-3 smooth-italic">anonymous Secrets Website</h1>
+            <p class="text-[#8892b0] hover:text-[#64ffda] text-sm font-extrabold py-1 smooth-italic">place where you can post anonymous stuffs thus having oauth functionality</p>
+            <a class="text-[#ffffff] hover:text-[blue] text-sm font-extrabold py-1 smooth-italic" href="">See More </a>
+        </div>
+        <div class="border border-[#64ffda] w-[270px] min-h-[200px] px-4 py-5 rounded-lg ease-in-out duration-300 hover:-translate-y-4 hover:border-[#ffffff20] hover:bg-[#8892b010] m-4">
+            <img class="h-[150px] w-full " src="" alt="">
+            <h1 class="text-[#8892b0] hover:text-[#64ffda] text-3xl font-extrabold py-3 smooth-italic">Bakers Landing Page</h1>
+            <p class="text-[#8892b0] hover:text-[#64ffda] text-sm font-extrabold py-1 smooth-italic">parellex baker landing page</p>
+            <a class="text-[#ffffff] hover:text-[blue] text-sm font-extrabold py-1 smooth-italic" href="">See More </a>
+        </div>
+        <div class="border border-[#64ffda] w-[270px] min-h-[200px] px-4 py-5 rounded-lg ease-in-out duration-300 hover:-translate-y-4 hover:border-[#ffffff20] hover:bg-[#8892b010] m-4">
+            <img class="h-[150px] w-full " src="" alt="">
+            <h1 class="text-[#8892b0] hover:text-[#64ffda] text-3xl font-extrabold py-3 smooth-italic">Mail Manager</h1>
+            <p class="text-[#8892b0] hover:text-[#64ffda] text-sm font-extrabold py-1 smooth-italic">Python base mail code that help to read delete and seprate your mail</p>
+            <a class="text-[#ffffff] hover:text-[blue] text-sm font-extrabold py-1 smooth-italic" href="">See More </a>
+        </div>
+        <div class="border border-[#64ffda] w-[270px] min-h-[200px] px-4 py-5 rounded-lg ease-in-out duration-300 hover:-translate-y-4 hover:border-[#ffffff20] hover:bg-[#8892b010] m-4">
+            <img class="h-[150px] w-full " src="" alt="">
+            <h1 class="text-[#8892b0] hover:text-[#64ffda] text-3xl font-extrabold py-3 smooth-italic">NeoTank</h1>
+            <p class="text-[#8892b0] hover:text-[#64ffda] text-sm font-extrabold py-1 smooth-italic">a watertank  chat bot to remotely control the functionality of watertank</p>
+            <a class="text-[#ffffff] hover:text-[blue] text-sm font-extrabold py-1 smooth-italic" href="">See More </a>
+        </div>
+
+    </div>
+
+    </section>
+
+    <footer class="bg-[#8892b0]">
+
+
+      <div class="sm:fixed bottom-[8%] right-0 text-center px-6 text-2xl sm:block hidden">
+        <a href="mailto:gaganbaghelofficial@gmail.com">
+
+        <p class="text-[#8892b0] smooth-italic text-base cursor-pointer rightmenu hover:text-[#64ffda]">gaganbaghelofficial@gmail.com</p>
+      </a>
+        
+        <div class="sm:flex justify-center pt-6 hidden">
+          <div class="h-28 w-[1px] bg-[#8892b0]"></div>
+        </div>
+  
+      </div>
+
+        <div class="sm:fixed bottom-[8%] left-0 text-center px-6 text-2xl ">
+          <div
+            class="flex sm:flex-col flex-row sm:space-y-2 sm:text-[#8892b0] text-black justify-center items-center space-x-5 sm:space-x-0 sm:pt-0  pt-3">
+            <a class="ease-in-out duration-300 hover:-translate-y-2 " href="https://github.com/gagan-baghel"><i
+                class="fa-brands fa-github  hover:text-[#64ffda]"></i></a>
+            <a class="ease-in-out duration-300 hover:-translate-y-2 "
+              href="https://www.facebook.com/profile.php?id=100010154055321"><i
+                class="fa-brands fa-facebook-f  hover:text-[#64ffda]"></i></a>
+            <a class="ease-in-out duration-300 hover:-translate-y-2 "
+              href="https://www.instagram.com/gagansinghbaghel15/?next=%2F"><i
+                class="fa-brands fa-instagram  hover:text-[#64ffda]"></i></a>
+            <a class="ease-in-out duration-300 hover:-translate-y-2 "
+              href="https://www.linkedin.com/in/gagan-singh-baghel-0a894220b/"><i
+                class="fa-brands fa-linkedin  hover:text-[#64ffda]"></i></a>
+          </div>
+          <div class="sm:flex justify-center pt-6 hidden">
+            <div class="h-48 w-[1px] bg-[#8892b0]"></div>
+          </div>
+    
+        </div>
+        <hr class="mx-8 my-2 text-[#8892b0] sm:hidden block">
+    
+        <p class="text-center pb-4 sm:py-2 typewritter-text">Copyright © 2022 Gagan Baghel</p>
+    
+      </footer>
+
+
+      <div style="z-index: 9999;"  class="loader">
+        <div class="body">
+          <span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
+          <div class="base" style>
+            <span></span>
+            <div class="face"></div>
+          </div>
+        </div>
+        <div class="longfazers">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <h1 class="loaderh1">Ready To Explore</h1>
+      </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+  crossorigin="anonymous"></script>
+<script src="jquery.tagcanvas.js"></script>
+<script src="script.js"></script>
+<script src="https://kit.fontawesome.com/0b20950690.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
