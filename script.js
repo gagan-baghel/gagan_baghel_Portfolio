@@ -1,20 +1,21 @@
-
+// timeout for loader function
 setTimeout(function () {
 	$('.loader').fadeOut('slow');
 }, 1000);
 
+function hello(){
+	console.log("hello");
 
+}
 
+// contact button changing text
 function contactbutton(){
 	document.getElementById("contactBtn").innerText = "Thanks for Contacting!";
 }
 
 
-
-// moving element
+// front page moving element
 document.addEventListener('mousemove',mover)
-
-
 function mover(e){
 	document.querySelectorAll('.mitem').forEach(move=>{
 		x = e.clientX ;
@@ -36,8 +37,7 @@ function mover(e){
 
 
 
-
-
+// responsive hambug code
 function myFunction() {
     doc = document.getElementById("leftmenu")
     btn = document.getElementById("menubtn")
@@ -46,6 +46,8 @@ function myFunction() {
     doc.classList.toggle("leftshow")
   }
 
+
+// canvas jq-design code
 $(document).ready(function (){
 	if(!$("#myCanvas").tagcanvas({
 	    textColour: "#64ffdbcd",
@@ -54,14 +56,11 @@ $(document).ready(function (){
 	    depth: 0.8,
 	    weight: true,
 	}, "tags")){
-	    // something went wrong hide the canvas container,
 	    $("#myCanvasContainer");
 	}
 })
 
-
-
-
+// front-page name mover
 let text =  document.getElementsByClassName("p1");
 let text2 =  document.getElementsByClassName("subhead");
 let text1 =  document.getElementsByClassName("intrest");
@@ -86,50 +85,107 @@ window.addEventListener("scroll",()=>{
 
 
 
-// carousel
-const leftSlide = document.querySelector(".left-slides");
-const rightSlide = document.querySelector(".right-slides");
-const leftBtn = document.querySelector(".left-btn");
-const rightBtn = document.querySelector(".right-btn");
-const slidesLength = leftSlide.querySelectorAll("div").length;
+let projects = [
+	{
+		src:"https://s3.amazonaws.com/ionic-marketplace/api-weather-app/icon.png",
+		header : "Weather API",
+		description : "Weather APIs are Application Programming Interfaces that allow you to connect to large databases of weather forecast and historical information",
+		projectLink : "",
+		GithubLink : "gl",
+	},
+	{
+		src:"",
+		header : "Parallex Website",
+		description : "website built on a scrolling technique used in web design where background images throughout a web page move slower than foreground images, creating an illusion of depth on a two-dimensional site.",
+		projectLink : "pl",
+		GithubLink : "gl",
+	},
+	{
+		src:"",
+		header : "Parallex Website",
+		description : "website built on a scrolling technique used in web design where background images throughout a web page move slower than foreground images, creating an illusion of depth on a two-dimensional site.",
+		projectLink : "pl",
+		GithubLink : "gl",
+	},
+	{
+		src:"",
+		header : "Dynamic ToDO List With Backend",
+		description : "A dynamic todolist using ejs,mongodb,html,css",
+		projectLink : "pl",
+		GithubLink : "gl",
+	},
+	{
+		src:"",
+		header : "Basic Blog Website",
+		description : "Blog website to publish edit and delete blog",
+		projectLink : "pl",
+		GithubLink : "gl",
+	},
+	{
+		src:"",
+		header : "Simon Game",
+		description : "A memory enhancement game which give you a better challang to user at every step",
+		projectLink : "pl",
+		GithubLink : "gl",
+	},
+	{
+		src:"",
+		header : "Static TinDog",
+		description : "A static website using bootstrap",
+		projectLink : "pl",
+		GithubLink : "gl",
+	},
+	{
+		src:"",
+		header : "Rest API",
+		description : "A rest api to perform all the actions to the database",
+		projectLink : "pl",
+		GithubLink : "gl",
+	},
+	{
+		src:"",
+		header : "Anonymous Secrets Website",
+		description : "Place where you can post anonymous stuffs thus having oauth functionality",
+		projectLink : "pl",
+		GithubLink : "gl",
+	},
+	{
+		src:"",
+		header : "Bakers Landing Page",
+		description : "Parellex baker landing page",
+		projectLink : "pl",
+		GithubLink : "gl",
+	},
+	{
+		src:"",
+		header : "Mail Manager",
+		description : "Python base mail code that help to read delete and seprate your mail",
+		projectLink : "pl",
+		GithubLink : "gl",
+	},
+	{
+		src:"",
+		header : "NeoTank",
+		description : "A watertank  chat bot to remotely control the functionality of watertank",
+		projectLink : "pl",
+		GithubLink : "gl",
+	}
+	
+]
 
-let currentSlide = 0;
 
-rightSlide.style.transform = `translateY(-${(slidesLength - 1) * 100}%)`;
-leftBtn.addEventListener("click", () => changeSlide("left"));
-rightBtn.addEventListener("click", () => changeSlide("right"));
+let data = '';
 
-function changeSlide(btn) {
-  if (btn == "right") {
-    currentSlide++;
+projects.map((info)=>{
+	data+=`
+	<div class="border border-[#64ffda] w-[270px] min-h-[200px] px-4 py-5 rounded-lg ease-in-out duration-300 hover:-translate-y-4 hover:border-[#ffffff20] hover:bg-[#8892b010] m-4">
+            <img class="h-[150px] object-cover w-full rounded-xl" src="${info.src}" alt="">
+            <h1 class="text-[#8892b0] hover:text-[#64ffda] text-3xl font-extrabold py-3 smooth-italic">${info.header}</h1>
+            <p class="text-[#8892b0] hover:text-[#64ffda] text-sm font-extrabold py-1 smooth-italic">${info.description}</p>
+            <div class="w-full flex justify-around flex-row py-3">
+            <a class="text-[#ffffff] hover:text-[blue] text-sm font-extrabold py-1 smooth-italic" href="${info.projectLink}">See More </a>
+            <a class="text-[#ffffff] hover:text-[blue] text-sm font-extrabold py-1 smooth-italic" href="${info.GithubLink}">Github </a></div>
+        </div>`
+})
 
-    if (currentSlide > slidesLength - 1) {
-      currentSlide = 0;
-    }
-  } else if (btn == "left") {
-    currentSlide--;
-    if (currentSlide < 0) {
-      currentSlide = slidesLength - 1;
-    }
-  }
-
-  rightSlide.style.transform = `translateY(-${(slidesLength - 1 - currentSlide) * 100}%)`;
-  leftSlide.style.transform = `translateY(-${currentSlide * 100}%)`;
-}
-
-setInterval(autoChangeSlide, 9000);
-
-function autoChangeSlide() {
-  currentSlide++;
-
-  if (currentSlide > slidesLength - 1) {
-    currentSlide = 0;
-  }
-
-  rightSlide.style.transform = `translateY(-${
-    (slidesLength - 1 - currentSlide) * 100}%)`;
-  leftSlide.style.transform = `translateY(-${currentSlide * 100}%)`;
-}
-
-
-
+document.getElementById("project-cards").innerHTML=data;
