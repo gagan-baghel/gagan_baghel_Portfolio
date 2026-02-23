@@ -1,0 +1,16 @@
+{
+  "name": "main-portfolio-next",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "node scripts/clean-next.js && next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "14.2.25",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  }
+}

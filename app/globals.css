@@ -145,13 +145,13 @@
   }
   .slide.x:after {
     content: "";
-    background-image: url("cube/ecr.webp");
+    background-image: url("/cube/ecr.webp");
     transform: translateZ(140px) rotateZ(-90deg);
   }
   
   .slide.x:before {
     content: "";
-    background-image: url("cube/matrix.png");
+    background-image: url("/cube/matrix.png");
     transform: translateZ(-140px) rotateZ(-90deg);
   }
   
@@ -161,13 +161,13 @@
   
   .slide.y:after {
     content: "";
-    background-image: url("cube/crypto.jpeg");
+    background-image: url("/cube/crypto.jpeg");
     transform: translateZ(140px) scale(-1);
   }
   
   .slide.y:before {
     content: "";
-    background-image: url("cube/code.jpg");
+    background-image: url("/cube/code.jpg");
     transform: translateZ(-140px);
   }
   
@@ -177,13 +177,13 @@
   
   .slide.z:after {
     content: "";
-    background-image: url("cube/coding.jpeg");
+    background-image: url("/cube/coding.jpeg");
     transform: translateZ(140px);
   }
   
   .slide.z:before {
     content: "";
-    background-image: url("cube/Photography.jpg");
+    background-image: url("/cube/Photography.jpg");
     transform: translateZ(-140px);
   }
   
