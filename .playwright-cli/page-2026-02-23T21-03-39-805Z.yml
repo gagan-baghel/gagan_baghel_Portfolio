@@ -1,0 +1,354 @@
+- generic [active] [ref=e1]:
+  - complementary "Social links" [ref=e2]:
+    - generic [ref=e3]:
+      - link "GitHub" [ref=e4] [cursor=pointer]:
+        - /url: https://github.com/gagan-baghel
+        - img [ref=e5]
+      - link "LinkedIn" [ref=e7] [cursor=pointer]:
+        - /url: https://www.linkedin.com/in/gagan-singh-baghel-0a894220b/
+        - img [ref=e8]
+      - link "Instagram" [ref=e10] [cursor=pointer]:
+        - /url: https://www.instagram.com/gagansinghbaghel15/?next=%2F
+        - img [ref=e11]
+      - link "Facebook" [ref=e13] [cursor=pointer]:
+        - /url: https://www.facebook.com/profile.php?id=100010154055321
+        - img [ref=e14]
+  - complementary "Email" [ref=e17]:
+    - link "gaganbaghelofficial@gmail.com" [ref=e18] [cursor=pointer]:
+      - /url: mailto:gaganbaghelofficial@gmail.com
+  - banner [ref=e20]:
+    - generic [ref=e21]:
+      - link "Go to homepage" [ref=e22] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e23]: GB
+        - generic [ref=e24]: Gagan Baghel
+      - navigation "Primary" [ref=e25]:
+        - link "About" [ref=e26] [cursor=pointer]:
+          - /url: /#about
+        - link "Skills" [ref=e27] [cursor=pointer]:
+          - /url: /#skills
+        - link "Work" [ref=e28] [cursor=pointer]:
+          - /url: /#work
+        - link "Contact" [ref=e29] [cursor=pointer]:
+          - /url: /#contact
+      - link "View Projects" [ref=e30] [cursor=pointer]:
+        - /url: /project
+  - main [ref=e31]:
+    - generic [ref=e32]:
+      - generic [ref=e34]:
+        - paragraph [ref=e35]: Gagan Baghel
+        - heading "Product-Driven Full-Stack Engineer building performance-critical web systems." [level=1] [ref=e36]
+        - paragraph [ref=e37]: 2+ years of experience building enterprise dashboards and data-heavy platforms. Improved frontend load times by about 45% and reduced ETL pipeline runtime by about 50% in production systems.
+        - generic [ref=e38]:
+          - link "View Projects" [ref=e39] [cursor=pointer]:
+            - /url: "#work"
+          - link "Contact Me" [ref=e40] [cursor=pointer]:
+            - /url: "#contact"
+      - complementary [ref=e41]:
+        - paragraph [ref=e43]: Current Role
+        - heading "Software Developer at Cybage Software, building enterprise-grade platforms with React and Next.js." [level=2] [ref=e44]
+        - list [ref=e45]:
+          - listitem [ref=e46]: Frontend performance improvement of about 45%
+          - listitem [ref=e47]: ETL processing optimization up to about 50%
+          - listitem [ref=e48]: Ownership across frontend, backend APIs, and data workflows
+    - generic [ref=e49]:
+      - generic [ref=e50]:
+        - paragraph [ref=e51]: Impact
+        - heading "Measured outcomes" [level=2] [ref=e52]
+        - generic [ref=e53]:
+          - article [ref=e54]:
+            - paragraph [ref=e55]: Millions
+            - generic [ref=e56]: Rows Processed In ETL
+          - article [ref=e57]:
+            - paragraph [ref=e58]: 70%
+            - generic [ref=e59]: Peak Load-Time Improvement
+          - article [ref=e60]:
+            - paragraph [ref=e61]: 45%
+            - generic [ref=e62]: Frontend Load-Time Reduction
+          - article [ref=e63]:
+            - paragraph [ref=e64]: 50%
+            - generic [ref=e65]: Pipeline Runtime Reduction
+      - generic [ref=e66]:
+        - generic "Interactive skill globe" [ref=e67]
+        - paragraph [ref=e68]: Move cursor over the globe to rotate and inspect depth
+    - generic [ref=e69]:
+      - article [ref=e70]:
+        - paragraph [ref=e71]: 2+ Years
+        - paragraph [ref=e72]: Experience
+      - article [ref=e73]:
+        - paragraph [ref=e74]: "-45%"
+        - paragraph [ref=e75]: Frontend Load Time
+      - article [ref=e76]:
+        - paragraph [ref=e77]: "-50%"
+        - paragraph [ref=e78]: Pipeline Runtime
+      - article [ref=e79]:
+        - paragraph [ref=e80]: 5+
+        - paragraph [ref=e81]: Production Apps
+    - generic [ref=e82]:
+      - generic [ref=e83]:
+        - paragraph [ref=e84]: About
+        - heading "Product-focused engineer with full-stack ownership" [level=2] [ref=e85]
+        - paragraph [ref=e86]: I build scalable web applications and data-heavy systems with a strong focus on performance, maintainability, and production reliability. I work across frontend architecture, backend APIs, and delivery workflows.
+      - generic [ref=e87]:
+        - article [ref=e88]:
+          - heading "Frontend Architecture" [level=3] [ref=e89]
+          - paragraph [ref=e90]: React, Next.js, TypeScript, reusable UI systems, and real-time data-heavy interfaces.
+        - article [ref=e91]:
+          - heading "Backend & Data" [level=3] [ref=e92]
+          - paragraph [ref=e93]: Node.js APIs, SQL optimization, MongoDB/Supabase modeling, and robust ETL pipelines.
+        - article [ref=e94]:
+          - heading "Execution" [level=3] [ref=e95]
+          - paragraph [ref=e96]: Translate product requirements into shipped systems with clean code and measurable improvements.
+    - generic [ref=e97]:
+      - paragraph [ref=e98]: Experience
+      - heading "What I have delivered" [level=2] [ref=e99]
+      - generic [ref=e100]:
+        - article [ref=e101]:
+          - heading "Enterprise Dashboards" [level=3] [ref=e102]
+          - paragraph [ref=e103]: Owned business-critical web platforms using React, Next.js, and TypeScript.
+        - article [ref=e104]:
+          - heading "Data-Heavy Systems" [level=3] [ref=e105]
+          - paragraph [ref=e106]: Designed and optimized ETL workflows processing millions of records.
+        - article [ref=e107]:
+          - heading "Full-Stack Product Delivery" [level=3] [ref=e108]
+          - paragraph [ref=e109]: Built and shipped end-to-end applications across frontend, backend, and deployment.
+        - article [ref=e110]:
+          - heading "Performance Engineering" [level=3] [ref=e111]
+          - paragraph [ref=e112]: Improved loading and runtime performance using architecture and query-level optimizations.
+    - generic [ref=e113]:
+      - generic [ref=e114]:
+        - paragraph [ref=e115]: Experience
+        - heading "Software Developer at Cybage Software" [level=2] [ref=e116]
+        - paragraph [ref=e117]: Dec 2023 - Present | Pune, India
+      - generic [ref=e118]:
+        - article [ref=e119]:
+          - paragraph [ref=e120]: Responsibilities
+          - heading "Owned development of enterprise-grade web platforms using React, Next.js, and TypeScript." [level=3] [ref=e121]
+          - paragraph [ref=e122]: Focused on performance, scalability, and maintainability across business-critical workflows.
+          - list [ref=e123]:
+            - listitem [ref=e124]: Improved frontend performance by about 45% via code-splitting, lazy loading, and bundle optimization.
+            - listitem [ref=e125]: Built reusable UI systems and real-time data-heavy visualizations for core product workflows.
+            - listitem [ref=e126]: Built and maintained ETL pipelines processing millions of rows using SQL, Python, and Perl.
+            - listitem [ref=e127]: Reduced end-to-end pipeline runtime by about 50% with parallel and multi-threaded processing.
+        - complementary "Company selector" [ref=e132]:
+          - button "Cybage Software" [pressed] [ref=e133]
+          - button "Anything4Cloud" [ref=e134]
+      - generic [ref=e135]:
+        - article [ref=e136]:
+          - paragraph [ref=e137]: 45%
+          - generic [ref=e138]: Frontend load-time improvement
+        - article [ref=e139]:
+          - paragraph [ref=e140]: 50%
+          - generic [ref=e141]: Pipeline runtime reduction
+        - article [ref=e142]:
+          - paragraph [ref=e143]: Millions
+          - generic [ref=e144]: Rows processed
+        - article [ref=e145]:
+          - paragraph [ref=e146]: Now
+          - generic [ref=e147]: Current role
+    - generic [ref=e148]:
+      - generic [ref=e149]:
+        - generic [ref=e150]:
+          - paragraph [ref=e151]: Featured Work
+          - heading "Selected Projects" [level=2] [ref=e152]
+        - link "Full Portfolio" [ref=e153] [cursor=pointer]:
+          - /url: /project
+      - generic [ref=e154]:
+        - article [ref=e155]:
+          - img "NeoTank Control Console" [ref=e157]
+          - generic [ref=e158]:
+            - generic [ref=e159]:
+              - generic [ref=e160]: "2025"
+              - generic [ref=e161]:
+                - generic [ref=e162]: Realtime
+                - generic [ref=e163]: IoT
+                - generic [ref=e164]: Dashboard
+            - heading "NeoTank Control Console" [level=3] [ref=e165]
+            - paragraph [ref=e166]: A real-time command dashboard for monitoring and remotely controlling smart water infrastructure.
+        - article [ref=e167]:
+          - img "Crypto Insight Lab" [ref=e169]
+          - generic [ref=e170]:
+            - generic [ref=e171]:
+              - generic [ref=e172]: "2024"
+              - generic [ref=e173]:
+                - generic [ref=e174]: Analytics
+                - generic [ref=e175]: Data Viz
+                - generic [ref=e176]: Alerts
+            - heading "Crypto Insight Lab" [level=3] [ref=e177]
+            - paragraph [ref=e178]: A data-rich market experience with predictive signals, trend maps, and custom alerting.
+        - article [ref=e179]:
+          - img "Visual Story Studio" [ref=e181]
+          - generic [ref=e182]:
+            - generic [ref=e183]:
+              - generic [ref=e184]: "2024"
+              - generic [ref=e185]:
+                - generic [ref=e186]: Creative Tech
+                - generic [ref=e187]: CMS
+                - generic [ref=e188]: Performance
+            - heading "Visual Story Studio" [level=3] [ref=e189]
+            - paragraph [ref=e190]: A high-polish media platform that blends editorial flow, motion, and performance-first rendering.
+    - generic [ref=e191]:
+      - generic [ref=e192]:
+        - paragraph [ref=e193]: Projects
+        - heading "Explore all projects on the dedicated Project page" [level=2] [ref=e194]
+        - paragraph [ref=e195]: Open the Project page to view the full project list with stack details, status, and implementation context.
+      - generic [ref=e196]:
+        - article [ref=e197]:
+          - img "Weather API Experience" [ref=e199]
+          - generic [ref=e200]:
+            - paragraph [ref=e201]: 01 / FEATURED
+            - heading "Weather API Experience" [level=3] [ref=e202]
+            - paragraph [ref=e203]: Forecast intelligence with location-aware weather timelines and insights.
+            - generic [ref=e204]:
+              - generic [ref=e205]: API
+              - generic [ref=e206]: React
+              - generic [ref=e207]: Visualization
+        - generic [ref=e208]:
+          - article [ref=e209]:
+            - paragraph [ref=e210]: "02"
+            - heading "Parallax Brand Site" [level=3] [ref=e211]
+            - paragraph [ref=e212]: A narrative-first web experience with deep layers and cinematic movement.
+          - article [ref=e213]:
+            - paragraph [ref=e214]: "03"
+            - heading "Dynamic ToDo Platform" [level=3] [ref=e215]
+            - paragraph [ref=e216]: Task intelligence platform with backend persistence and smart filtering.
+          - article [ref=e217]:
+            - paragraph [ref=e218]: "04"
+            - heading "Modern Blog Engine" [level=3] [ref=e219]
+            - paragraph [ref=e220]: Composable blogging with edit flows, publishing states, and analytics hooks.
+          - link "Go to Project Page" [ref=e221] [cursor=pointer]:
+            - /url: /project
+    - region "Technology logo belt" [ref=e222]:
+      - region "Continuous technology belt" [ref=e223]:
+        - generic [ref=e224]:
+          - article [ref=e225]:
+            - img "Next.js logo" [ref=e226]
+            - generic [ref=e227]: Next.js
+          - article [ref=e228]:
+            - img "React logo" [ref=e229]
+            - generic [ref=e230]: React
+          - article [ref=e231]:
+            - img "TypeScript logo" [ref=e232]
+            - generic [ref=e233]: TypeScript
+          - article [ref=e234]:
+            - img "Node.js logo" [ref=e235]
+            - generic [ref=e236]: Node.js
+          - article [ref=e237]:
+            - img "Tailwind logo" [ref=e238]
+            - generic [ref=e239]: Tailwind
+          - article [ref=e240]:
+            - img "GSAP logo" [ref=e241]
+            - generic [ref=e242]: GSAP
+          - article [ref=e243]:
+            - img "MongoDB logo" [ref=e244]
+            - generic [ref=e245]: MongoDB
+          - article [ref=e246]:
+            - img "PostgreSQL logo" [ref=e247]
+            - generic [ref=e248]: PostgreSQL
+          - article [ref=e249]:
+            - img "Docker logo" [ref=e250]
+            - generic [ref=e251]: Docker
+          - article [ref=e252]:
+            - img "Figma logo" [ref=e253]
+            - generic [ref=e254]: Figma
+          - article [ref=e255]:
+            - img "Framer logo" [ref=e256]
+            - generic [ref=e257]: Framer
+          - article [ref=e258]:
+            - img "GitHub logo" [ref=e259]
+            - generic [ref=e260]: GitHub
+          - article [ref=e261]:
+            - img "Next.js logo" [ref=e262]
+            - generic [ref=e263]: Next.js
+          - article [ref=e264]:
+            - img "React logo" [ref=e265]
+            - generic [ref=e266]: React
+          - article [ref=e267]:
+            - img "TypeScript logo" [ref=e268]
+            - generic [ref=e269]: TypeScript
+          - article [ref=e270]:
+            - img "Node.js logo" [ref=e271]
+            - generic [ref=e272]: Node.js
+          - article [ref=e273]:
+            - img "Tailwind logo" [ref=e274]
+            - generic [ref=e275]: Tailwind
+          - article [ref=e276]:
+            - img "GSAP logo" [ref=e277]
+            - generic [ref=e278]: GSAP
+          - article [ref=e279]:
+            - img "MongoDB logo" [ref=e280]
+            - generic [ref=e281]: MongoDB
+          - article [ref=e282]:
+            - img "PostgreSQL logo" [ref=e283]
+            - generic [ref=e284]: PostgreSQL
+          - article [ref=e285]:
+            - img "Docker logo" [ref=e286]
+            - generic [ref=e287]: Docker
+          - article [ref=e288]:
+            - img "Figma logo" [ref=e289]
+            - generic [ref=e290]: Figma
+          - article [ref=e291]:
+            - img "Framer logo" [ref=e292]
+            - generic [ref=e293]: Framer
+          - article [ref=e294]:
+            - img "GitHub logo" [ref=e295]
+            - generic [ref=e296]: GitHub
+    - generic [ref=e297]:
+      - paragraph [ref=e298]: How I Work
+      - heading "Delivery process" [level=2] [ref=e299]
+      - generic [ref=e300]:
+        - article [ref=e301]:
+          - generic [ref=e302]: "01"
+          - heading "Plan" [level=3] [ref=e303]
+          - paragraph [ref=e304]: Break product requirements into technical milestones and delivery phases.
+        - article [ref=e305]:
+          - generic [ref=e306]: "02"
+          - heading "Build" [level=3] [ref=e307]
+          - paragraph [ref=e308]: Develop frontend, backend APIs, and data workflows with clean architecture.
+        - article [ref=e309]:
+          - generic [ref=e310]: "03"
+          - heading "Optimize" [level=3] [ref=e311]
+          - paragraph [ref=e312]: Improve performance with profiling, code-splitting, query tuning, and caching.
+        - article [ref=e313]:
+          - generic [ref=e314]: "04"
+          - heading "Ship" [level=3] [ref=e315]
+          - paragraph [ref=e316]: Deploy production-ready systems, monitor outcomes, and iterate quickly.
+    - generic [ref=e317]:
+      - generic [ref=e318]:
+        - paragraph [ref=e319]: Contact
+        - heading "Let's connect" [level=2] [ref=e320]
+        - paragraph [ref=e321]: Based in Pune, India. For full-time roles, contract work, or product collaborations, feel free to reach out.
+        - paragraph [ref=e322]:
+          - text: "Email:"
+          - link "gaganbaghelofficial@gmail.com" [ref=e323] [cursor=pointer]:
+            - /url: mailto:gaganbaghelofficial@gmail.com
+        - paragraph [ref=e324]: "Location: Pune, India"
+      - generic [ref=e325]:
+        - generic [ref=e326]:
+          - text: Full Name
+          - textbox "Full Name" [ref=e327]:
+            - /placeholder: Enter your name
+        - generic [ref=e328]:
+          - text: Email
+          - textbox "Email" [ref=e329]:
+            - /placeholder: Enter your email
+        - generic [ref=e330]:
+          - text: Project Brief
+          - textbox "Project Brief" [ref=e331]:
+            - /placeholder: Tell me what you want to build
+        - button "Send Message" [ref=e332]
+  - contentinfo [ref=e333]:
+    - generic [ref=e334]:
+      - paragraph [ref=e335]: Designed + Engineered by Gagan Baghel
+      - generic [ref=e336]:
+        - link "GitHub" [ref=e337] [cursor=pointer]:
+          - /url: https://github.com/gagan-baghel
+        - link "LinkedIn" [ref=e338] [cursor=pointer]:
+          - /url: https://www.linkedin.com/in/gagan-singh-baghel-0a894220b/
+        - link "Instagram" [ref=e339] [cursor=pointer]:
+          - /url: https://www.instagram.com/gagansinghbaghel15/?next=%2F
+        - link "Facebook" [ref=e340] [cursor=pointer]:
+          - /url: https://www.facebook.com/profile.php?id=100010154055321
+        - link "Email" [ref=e341] [cursor=pointer]:
+          - /url: mailto:gaganbaghelofficial@gmail.com
+  - alert [ref=e342]

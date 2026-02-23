@@ -51,7 +51,8 @@ export const featuredProjects = [
     title: 'NeoTank Control Console',
     summary:
       'A real-time command dashboard for monitoring and remotely controlling smart water infrastructure.',
-    image: createProjectArt('NeoTank Console', '#152b3d', '#1f3f53', '#08111d'),
+    image:
+      'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1400&q=80',
     tags: ['Realtime', 'IoT', 'Dashboard'],
     year: '2025',
   },
@@ -77,7 +78,8 @@ export const allProjects = [
   {
     title: 'Weather API Experience',
     description: 'Forecast intelligence with location-aware weather timelines and insights.',
-    image: createProjectArt('Weather API Experience', '#12384d', '#1f3d4f', '#08111d'),
+    image:
+      'https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?auto=format&fit=crop&w=1400&q=80',
     stack: ['API', 'React', 'Visualization'],
     status: 'Live',
   },

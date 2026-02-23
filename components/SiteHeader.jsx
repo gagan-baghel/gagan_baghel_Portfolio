@@ -1,13 +1,22 @@
 import Link from 'next/link';
 
-const navItems = [
+const homeNavItems = [
   { label: 'About', href: '/#about' },
   { label: 'Skills', href: '/#skills' },
   { label: 'Work', href: '/#work' },
   { label: 'Contact', href: '/#contact' },
 ];
 
+const projectNavItems = [
+  { label: 'Overview', href: '#project-top' },
+  { label: 'Projects', href: '#work' },
+  { label: 'Review', href: '#review' },
+  { label: 'Process', href: '#process' },
+];
+
 export default function SiteHeader({ projectPage = false }) {
+  const navItems = projectPage ? projectNavItems : homeNavItems;
+
   return (
     <header className="site-header">
       <div className="shell nav-shell">
