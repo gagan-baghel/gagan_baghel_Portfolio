@@ -56,12 +56,26 @@ export default function ProjectPage() {
       <main className="site-main">
         <section className="section shell projects-hero reveal" id="project-top">
           <p className="eyebrow">Projects</p>
-          <div className="project-hero-head">
-            <h1 className="section-title">Project Collection</h1>
-            <p className="section-copy project-hero-copy">
-              A collection of full-stack projects across dashboards, APIs, data workflows, and production deployments.
-              Each project highlights implementation quality and measurable impact.
-            </p>
+
+          <div className="project-hero-intro">
+            <div className="project-hero-head">
+              <h1 className="section-title">Project Collection</h1>
+              <p className="section-copy project-hero-copy">
+                A collection of full-stack projects across dashboards, APIs, data workflows, and production
+                deployments. Each project highlights implementation quality and measurable impact.
+              </p>
+            </div>
+
+            <a
+              href="https://github.com/gagan-baghel"
+              target="_blank"
+              rel="noreferrer"
+              className="project-github-card"
+              aria-label="Open GitHub profile"
+            >
+              <p className="project-github-label">GitHub Profile</p>
+              <h2 className="project-github-handle">@gagan-baghel</h2>
+            </a>
           </div>
 
           <div className="view-signal-grid">
