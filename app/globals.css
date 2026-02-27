@@ -1761,6 +1761,7 @@ img {
   background: linear-gradient(150deg, rgba(11, 20, 33, 0.92), rgba(9, 16, 27, 0.84));
   box-shadow: var(--shadow-md);
   padding: 1.2rem;
+  margin-bottom: clamp(1.4rem, 3vw, 2.6rem);
   display: grid;
   gap: 0.95rem;
   grid-template-columns: 1fr auto;
