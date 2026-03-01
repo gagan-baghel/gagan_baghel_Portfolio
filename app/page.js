@@ -12,7 +12,7 @@ const metrics = [
   { label: 'Experience', value: '2+ Years' },
   { label: 'Frontend Load Time', value: '-45%' },
   { label: 'Pipeline Runtime', value: '-50%' },
-  { label: 'Production Apps', value: '5+' },
+  { label: 'Production Apps', value: '19+' },
 ];
 
 const workflow = [
