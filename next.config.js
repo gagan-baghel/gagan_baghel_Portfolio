@@ -11,6 +11,7 @@ const nextConfig = {
         hostname: 'cdn.simpleicons.org',
       },
     ],
+    dangerouslyAllowSVG: true,
   },
 };
 

@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 const homeNavItems = [
   { label: 'About', href: '/#about' },
@@ -22,8 +23,14 @@ export default function SiteHeader({ projectPage = false }) {
     <header className="site-header">
       <div className="shell nav-shell">
         <Link href="/" className="brand-mark" aria-label="Go to homepage">
-          <span className="brand-core">GB</span>
-          <span className="brand-label">Gagan Baghel</span>
+          <Image
+            src="/playstore.png"
+            alt="Gagan Baghel Logo"
+            width={40}
+            height={40}
+            className="brand-logo"
+            priority
+          />
         </Link>
 
         <nav className="site-nav" aria-label="Primary">

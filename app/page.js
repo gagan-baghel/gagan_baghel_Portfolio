@@ -439,7 +439,7 @@ export default function HomePage() {
             <div className="skills-belt-motion">
               {[...skillTicker, ...skillTicker].map((item, index) => (
                 <article key={`${item.name}-${index}`} className="belt-item">
-                  <img src={item.logo} alt={`${item.name} logo`} width={22} height={22} loading="lazy" />
+                  <Image src={item.logo} alt={`${item.name} logo`} width={22} height={22} unoptimized />
                   <span>{item.name}</span>
                 </article>
               ))}

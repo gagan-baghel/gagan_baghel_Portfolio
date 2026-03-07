@@ -131,6 +131,30 @@ img {
   font-weight: 700;
 }
 
+.brand-logo {
+  object-fit: contain;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.15) 0%, transparent 70%);
+  filter: drop-shadow(0 0 12px rgba(255, 255, 255, 0.4));
+  border-radius: 50%;
+  padding: 4px;
+}
+
+.footer-brand {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.footer-logo {
+  object-fit: contain;
+  opacity: 0.85;
+  transition: opacity 0.2s ease;
+}
+
+.footer-logo:hover {
+  opacity: 1;
+}
+
 .brand-label {
   font-family: var(--font-display), 'Space Grotesk', 'Avenir Next', sans-serif;
   letter-spacing: 0.04em;
